@@ -1,0 +1,13 @@
+train: "/media/ubuntu/DATA/md/YOLOv26n/datasets/TIB-Net/train/images"
+val: "/media/ubuntu/DATA/md/YOLOv26n/datasets/TIB-Net/val/images"
+test: "/media/ubuntu/DATA/md/YOLOv26n/datasets/TIB-Net/test/images"
+
+nc: 1
+names: ['uav']
+
+roboflow:
+  workspace: extrauav-detection
+  project: tib-net-uav
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/extrauav-detection/tib-net-uav/dataset/1
